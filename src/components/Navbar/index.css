@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.light-navbar-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid red;
+}
+
+.dark-navbar-container {
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid red;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.light-list-item {
+  color: #171f46;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.dark-list-item {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Roboto;
+}

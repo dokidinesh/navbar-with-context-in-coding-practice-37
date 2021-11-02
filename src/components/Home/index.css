@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.light-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.light-home-heading {
+  color: #1e293b;
+  font-family: Roboto;
+}
+
+.dark-home-heading {
+  color: #ffffff;
+  font-family: Roboto;
+}
